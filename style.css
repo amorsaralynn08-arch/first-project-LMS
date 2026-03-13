@@ -2,7 +2,6 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
   font-size: medium;
-  background-color: deeppink;
 }
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -21,7 +20,7 @@ h1+nav{
 }
 
 a{
-    background-color: black;
+    display: inline;
 }
 
 
@@ -36,4 +35,30 @@ h3+p{
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
      color: darkslateblue;
+}
+.form-page{
+    padding:6%;
+    border: 2px solid black;
+    margin:20px;
+    background-color:silver);
+}
+nav ul li{
+    display: inline;
+    padding: 6px;
+    
+}
+nav{
+    padding: 6px;
+    border: 2px solid black ;
+    text-decoration: none;
+    text-align: center;
+    background-color: burlywood;
+}
+form label{
+    padding: 15px;
+    text-align: center;
+
+}
+form input{
+    padding: 6px;
 }
