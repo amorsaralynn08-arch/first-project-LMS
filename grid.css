@@ -35,5 +35,18 @@
     border: 2px solid black;
 
 }
- 
+
+ @media (max-width:632px) {
+#grid-container{
+      display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  0.2fr 8fr 0.2fr ;
+    gap: 10px;
+
+}
+.sidebar{
+    display: none;
+}
+    
+ }
 
