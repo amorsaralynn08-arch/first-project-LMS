@@ -9,6 +9,7 @@ grid-template-rows: auto auto auto;
 
 .header{
 display: flex;
+flex-direction: row;
 justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
@@ -53,26 +54,15 @@ right:0;
     margin: 20px solid black;
  }
 
- .header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
- }
+ 
+#hero-text{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
 
 
-
- .header{
-height: 300px;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-background-image: url(/images/woman-in-tech.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-
+ 
 
 
  }
@@ -84,15 +74,8 @@ z-index: 2;
 
 
  }
- #overlay{
-background-color: rgba(225, 225, 225, 0.5);
-zoom: 1;
-position: absolute;
-inset: 0;
 
- }
-
- }
+ 
 
 
 
